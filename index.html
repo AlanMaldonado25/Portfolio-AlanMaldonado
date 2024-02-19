@@ -1,212 +1,392 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Alan Maldonado - Dev - Programming</title>
-        <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-        crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="./css/style.css" />
-    </head>
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-md navbar-dark">
-                <div class="container-fluid">
-                <a class="navbar-brand" href="#"
-                    ><img
-                    class="logo"
-                    src="./img/LogoAzul.png"
-                    alt="Logotipo portfolio Alan Maldonado"
-                /></a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Conocimientos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#sobreMi">Sobre mi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#proyectos">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contactame</a>
-                    </li>
-                    </ul>
-                </div>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <!-- Presentacion -->
-            <section class="presentacion">
-                <article class="container-img">
-                    <img class="img-alan" src="./img/Alan.png" alt="Fotografia Alan Maldonado">
-                </article>
-                <article >
-                    <h1 class="presentacion-titulo">Alan Maldonado</h1>
-                <p class="presentacion-texto">
-                Me encanta el desafío de convertir una idea en algo tangible y
-                funcional.
-                </p>
-                <div class="container-btn">
-                    <a class="button" href="#contacto">Descargar CV</a>
-                </div>
-                </article>
-                
-                
-            </section>
-            <!-- Skills -->
-            <section class="skills" id="skills">
-                <h2 class="title-section">Mis conocimientos</h2>
-                <article class="contenedor-cards">
-                    <div class="card-tecnologia">
-                        <!-- img -->
-                        <img class="card-imagen" src="./img/iconos/html-5.png" alt="HTML5"/> 
-                        <!--  titulo -->
-                        <h3 class="titulo-card">HTML5</h3>
-                    </div>
-                    <div class="card-tecnologia">
-                        <!-- img -->
-                        <img class="card-imagen" src="./img/iconos/css-3.png" alt="Css3"/> 
-                        <!--  titulo -->
-                        <h3 class="titulo-card">CSS3</h3>
-                    </div>
-                    <div class="card-tecnologia">
-                        <!-- img -->
-                        <img class="card-imagen" src="./img/iconos/sass.png" alt="Sass"/> 
-                        <!--  titulo -->
-                        <h3 class="titulo-card">Sass</h3>
-                    </div>
-                    <div class="card-tecnologia">
-                        <!-- img -->
-                        <img class="card-imagen" src="./img/iconos/js.png" alt="JavaScript"/> 
-                        <!--  titulo -->
-                        <h3 class="titulo-card">JavaScript</h3>
-                    </div>
-                    <div class="card-tecnologia">
-                        <!-- img -->
-                        <img class="card-imagen" src="./img/iconos/React.png" alt="React Js"/> 
-                        <!--  titulo -->
-                        <h3 class="titulo-card">React Js</h3>
-                    </div>
-                    <div class="card-tecnologia">
-                        <!-- img -->
-                        <img class="card-imagen" src="./img/iconos/git.png" alt="Git"/> 
-                        <!--  titulo -->
-                        <h3 class="titulo-card">Git</h3>
-                    </div>
-                </article>
-            </section>
-            <!-- About Me -->
-            <section class="container-sobremi" id="sobreMi">
-                <h2 class="title-section">Sobre mi</h2>
-                <article class="parrafos">
-                    <p>
-                        Soy Alan Maldonado, vivo en Mendoza Argentina.
-                    </p>
-                    <p class="">
-                        Comence en el mundo de la tecnologia siendo autodidacta. Actualmente estoy estudiando en Coderhouse, la carrera de desarrollo de aplicaciones.
-                    </p>
-                    <p>
-                        Esta carrera incluye cursos de desarrollo web , Javascript , ReactJs y React Native.
-                    </p>   
-                </article>
-                <article class="container-diplomas">
-                    
-                        <div>
-                            <img class="diploma" src="./img/Diploma.png" alt="Diploma de desarrollo web Coderhouse">
-                            <p class="diploma-description">Diploma Desarrollo Web</p>
-                        </div>
-                        <div>
-                            <img class="diploma" src="./img/diplomaJs.png" alt="Diploma de Javascript Coderhouse">
-                            <p class="diploma-description">Diploma Javascript</p>
-                        </div>
-                        <div>
-                            <img class="diploma" src="./img/diplomaReactJs.png" alt="Diploma de ReactJs Coderhouse">
-                            <p class="diploma-description">Diploma ReactJs</p>
-                        </div>
-                    
-                </article>
-            </section>
-            <!--Projects -->
-            <section class="container-proyectos" id="proyectos">
-                <h2 class="title-section">Proyectos</h2>
-                <article class="container-card">
-                    <div class="card">
-                        <img class="card-img" src="./img/Proyectos/F1Wiki.jpeg" alt="Imagen de muestra de Proyecto final del curso de desarrollo web Coderhouse">
-                        <h3 class="titulo-card">Web F1</h3>
-                        <article class="tecnologias-card">
-                                <img class="tecnologia" src="./img/iconos/html-5.png" alt="Logotipo HTML5">
-                                <img class="tecnologia" src="./img/iconos/css-3.png" alt="Logotipo CSS3">
-                                <img class="tecnologia" src="./img/iconos/sass.png" alt="Logotipo Sass">
-                        </article>
-                        <div class="btn-ver-proyecto">
-                            <a class="enlace-ver-proyecto" href="https://wiki-formula1.netlify.app/" target="_blank">Ver Proyecto</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img" src="./img/Proyectos/WikiCine.jpeg" alt="Imagen de muestra de Proyecto final del curso de javascript Coderhouse">
-                        <h3 class="titulo-card">WikiCine</h3>
-                        <article class="tecnologias-card">
-                                <img class="tecnologia" src="./img/iconos/html-5.png" alt="Logotipo HTML5">
-                                <img class="tecnologia" src="./img/iconos/css-3.png" alt="Logotipo CSS3">
-                                <img class="tecnologia" src="./img/iconos/js.png" alt="Logotipo Javascript">
-                        </article>
-                        <div class="btn-ver-proyecto">
-                            <a class="enlace-ver-proyecto" href="https://wikicine.netlify.app/" target="_blank">Ver Proyecto</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img" src="./img/Proyectos/PcZone.jpeg" alt="Imagen de muestra de Proyecto final del curso de ReactJs Coderhouse">
-                        <h3 class="titulo-card">PcZone</h3>
-                        <article class="tecnologias-card">
-                                <img class="tecnologia" src="./img/iconos/React.png" alt="Logotipo ReactJs">
-                        </article>
-                        <div class="btn-ver-proyecto">
-                            <a class="enlace-ver-proyecto" href="https://pc-zone.netlify.app " target="_blank">Ver Proyecto</a>
-                        </div>
-                    </div>
-                </article>
-            </section>
-            <!-- Contactame -->
-            <section class="container-contacto">
-                <h2 class="title-section">Contactame</h2>
-                <div class="container-enlaces">
-                    <a class="btn-contacto" target="_blank" href="https://wa.me/+5492615582832"><img class="img-btn" src="./img/iconos/wsp.png" alt="icono de Whatsapp"></a>
-                    <a class="btn-contacto" href="#"><img class="img-btn" src="./img/iconos/GitHub.png" alt="Icono de GitHub"></a>
-                    <a class="btn-contacto" href="#"><img class="img-btn" src="./img/iconos/LinkedIn.png" alt="Icono de Linkedin"></a>
-                    <a class="btn-contacto" href="#"><img class="img-btn" src="./img/iconos/Instagram.png" alt="Icono de Instagram"></a>
-                </div>
-            </section>
-        </main>
-
-
-        <div>
-            <a class="btn-wsp-flotante" target="_blank" href="https://wa.me/+5492615582832"><img class="img-btn-flotante" src="./img/iconos/wsp.png" alt=""></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alan Maldonado - Dev - Programming</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              class="logo"
+              src="./img/LogoAzul.png"
+              alt="Logotipo portfolio Alan Maldonado"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Conocimientos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobreMi">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contactame</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"
-        ></script>
-    </body>
+      </nav>
+    </header>
+    <main>
+      <!-- Presentacion -->
+      <section class="presentacion">
+        <article class="container-img">
+          <img
+            class="img-alan"
+            src="./img/Alan.png"
+            alt="Fotografia Alan Maldonado"
+          />
+        </article>
+        <article>
+          <h1 class="presentacion-titulo">Alan Maldonado</h1>
+          <p class="presentacion-texto">
+            Me encanta el desafío de convertir una idea en algo tangible y
+            funcional.
+          </p>
+          <div class="container-btn">
+            <a
+              class="button"
+              href="./CV/ALAN MALDONADO.pdf"
+              download="cvAlanMaldonado"
+              >Descargar CV</a
+            >
+          </div>
+        </article>
+      </section>
+      <!-- Skills -->
+      <section class="skills" id="skills">
+        <h2 class="title-section">Mis conocimientos</h2>
+        <article class="contenedor-cards">
+          <div class="card-tecnologia">
+            <!-- img -->
+            <img
+              class="card-imagen"
+              src="./img/iconos/html-5.png"
+              alt="HTML5"
+            />
+            <!--  titulo -->
+            <h3 class="titulo-card">HTML5</h3>
+          </div>
+          <div class="card-tecnologia">
+            <!-- img -->
+            <img class="card-imagen" src="./img/iconos/css-3.png" alt="Css3" />
+            <!--  titulo -->
+            <h3 class="titulo-card">CSS3</h3>
+          </div>
+          <div class="card-tecnologia">
+            <!-- img -->
+            <img class="card-imagen" src="./img/iconos/sass.png" alt="Sass" />
+            <!--  titulo -->
+            <h3 class="titulo-card">Sass</h3>
+          </div>
+          <div class="card-tecnologia">
+            <!-- img -->
+            <img
+              class="card-imagen"
+              src="./img/iconos/js.png"
+              alt="JavaScript"
+            />
+            <!--  titulo -->
+            <h3 class="titulo-card">JavaScript</h3>
+          </div>
+          <div class="card-tecnologia">
+            <!-- img -->
+            <img
+              class="card-imagen"
+              src="./img/iconos/React.png"
+              alt="React Js"
+            />
+            <!--  titulo -->
+            <h3 class="titulo-card">React Js</h3>
+          </div>
+          <div class="card-tecnologia">
+            <!-- img -->
+            <img class="card-imagen" src="./img/iconos/git.png" alt="Git" />
+            <!--  titulo -->
+            <h3 class="titulo-card">Git</h3>
+          </div>
+        </article>
+      </section>
+      <!-- About Me -->
+      <section class="container-sobremi" id="sobreMi">
+        <h2 class="title-section">Sobre mi</h2>
+        <article class="parrafos">
+          <p>Soy Alan Maldonado, vivo en Mendoza Argentina.</p>
+          <p>
+            Comence en el mundo de la tecnologia siendo autodidacta. Actualmente
+            estoy estudiando en Coderhouse, la carrera de desarrollo de
+            aplicaciones.
+          </p>
+          <p>
+            Esta carrera incluye cursos de desarrollo web , Javascript , ReactJs
+            y React Native.
+          </p>
+        </article>
+        <article class="container-diplomas">
+          <div>
+            <img
+              class="diploma"
+              src="./img/Diploma.png"
+              alt="Diploma de desarrollo web Coderhouse"
+            />
+            <p class="diploma-description">Diploma Desarrollo Web</p>
+          </div>
+          <div>
+            <img
+              class="diploma"
+              src="./img/diplomaJs.png"
+              alt="Diploma de Javascript Coderhouse"
+            />
+            <p class="diploma-description">Diploma Javascript</p>
+          </div>
+          <div>
+            <img
+              class="diploma"
+              src="./img/diplomaReactJs.png"
+              alt="Diploma de ReactJs Coderhouse"
+            />
+            <p class="diploma-description">Diploma ReactJs</p>
+          </div>
+        </article>
+      </section>
+      <!--Projects -->
+      <section class="container-proyectos" id="proyectos">
+        <h2 class="title-section">Proyectos</h2>
+        <article class="container-card-projects">
+          <div class="card">
+            <img
+              class="card-img"
+              src="./img/Proyectos/F1Wiki.jpeg"
+              alt="Imagen de muestra de Proyecto final del curso de desarrollo web Coderhouse"
+            />
+            <h3 class="titulo-card">Web F1</h3>
+            <article class="tecnologias-card">
+              <img
+                class="tecnologia"
+                src="./img/iconos/html-5.png"
+                alt="Logotipo HTML5"
+              />
+              <img
+                class="tecnologia"
+                src="./img/iconos/css-3.png"
+                alt="Logotipo CSS3"
+              />
+              <img
+                class="tecnologia"
+                src="./img/iconos/sass.png"
+                alt="Logotipo Sass"
+              />
+            </article>
+            <div class="btn-ver-proyecto">
+              <a
+                class="enlace-ver-proyecto"
+                href="https://wiki-formula1.netlify.app/"
+                target="_blank"
+                >Ver Proyecto</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="./img/Proyectos/WikiCine.jpeg"
+              alt="Imagen de muestra de Proyecto final del curso de javascript Coderhouse"
+            />
+            <h3 class="titulo-card">WikiCine</h3>
+            <article class="tecnologias-card">
+              <img
+                class="tecnologia"
+                src="./img/iconos/html-5.png"
+                alt="Logotipo HTML5"
+              />
+              <img
+                class="tecnologia"
+                src="./img/iconos/css-3.png"
+                alt="Logotipo CSS3"
+              />
+              <img
+                class="tecnologia"
+                src="./img/iconos/js.png"
+                alt="Logotipo Javascript"
+              />
+            </article>
+            <div class="btn-ver-proyecto">
+              <a
+                class="enlace-ver-proyecto"
+                href="https://wikicine.netlify.app/"
+                target="_blank"
+                >Ver Proyecto</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="./img/Proyectos/PcZone.jpeg"
+              alt="Imagen de muestra de Proyecto final del curso de ReactJs Coderhouse"
+            />
+            <h3 class="titulo-card">PcZone</h3>
+            <article class="tecnologias-card">
+              <img
+                class="tecnologia"
+                src="./img/iconos/React.png"
+                alt="Logotipo ReactJs"
+              />
+            </article>
+            <div class="btn-ver-proyecto">
+              <a
+                class="enlace-ver-proyecto"
+                href="https://pc-zone.netlify.app "
+                target="_blank"
+                >Ver Proyecto</a
+              >
+            </div>
+          </div>
+        </article>
+      </section>
+      <!-- Contactame -->
+      <section class="container-contacto" id="contacto">
+        <h2 class="title-section">Contactame</h2>
+        <div class="container-enlaces">
+          <a
+            class="btn-contacto"
+            target="_blank"
+            href="https://wa.me/+5492615582832"
+            ><img
+              class="img-btn"
+              src="./img/iconos/wsp.png"
+              alt="icono de Whatsapp"
+          /></a>
+          <a class="btn-contacto" href="https://github.com/AlanMaldonado25"
+            ><img
+              class="img-btn"
+              src="./img/iconos/GitHub.png"
+              alt="Icono de GitHub"
+          /></a>
+          <a
+            class="btn-contacto"
+            href="https://www.linkedin.com/in/alan-maldonado-639885210/"
+            ><img
+              class="img-btn"
+              src="./img/iconos/LinkedIn.png"
+              alt="Icono de Linkedin"
+          /></a>
+          <a class="btn-contacto" href="https://www.instagram.com/alanmaldo22/"
+            ><img
+              class="img-btn"
+              src="./img/iconos/Instagram.png"
+              alt="Icono de Instagram"
+          /></a>
+        </div>
+        <article class="container-form" id="container-form">
+          <div class="title-section">
+            <h2>Dejame un mensaje</h2>
+          </div>
+          <div class="row contenedor-form">
+            <form
+              action="https://formsubmit.co/alanmaldo.ct@gmail.com"
+              method="post"
+              class="formulario col-6"
+              id="form"
+            >
+              <label for="nombre" class="form-label">Nombre:</label>
+              <input
+                class="formulario-input"
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Coloca tu nombre"
+              />
+              <label for="apellido" class="form-label">Apellido:</label>
+              <input
+                class="formulario-input"
+                type="text"
+                id="apellido"
+                name="apellido"
+                placeholder="Coloca tu apellido"
+              />
+              <label for="asunto" class="form-label">Asunto:</label>
+              <input
+                class="formulario-input"
+                type="text"
+                id="asunto"
+                name="asunto"
+                placeholder="Coloca tu asunto"
+              />
+              <label class="form-label" for="email">Correo electrónico:</label>
+              <input
+                class="formulario-input"
+                type="email"
+                id="email"
+                name="correo"
+                placeholder="ejemplo@gmail.com"
+              />
+              <label class="form-label" for="mensaje">Mensaje:</label><br />
+              <textarea
+                name="mensaje"
+                id="mensaje"
+                cols="30"
+                rows="10"
+                class="form-textarea"
+                placeholder="Escribe tu mensaje"
+              ></textarea>
+              <button type="submit" class="btn-submit" id="btn-enviar">
+                Enviar Mensaje
+              </button>
+            </form>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>Diseñado por Alan Maldonado</p>
+    </footer>
+
+    <div>
+      <a
+        class="btn-wsp-flotante"
+        target="_blank"
+        href="https://wa.me/+5492615582832"
+        ><img class="img-btn-flotante" src="./img/iconos/wsp.png" alt=""
+      /></a>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
